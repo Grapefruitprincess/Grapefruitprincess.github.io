@@ -659,11 +659,12 @@ button {
     height: 80%
 }
 .page-1 {
-    background: url(../img/iali53.jpg) bottom right no-repeat #fff;
-    text-align: left
+    background: url(../img/1057.jpg) bottom right no-repeat #fff;
+    text-align: right;
 }
 .page-1 p {
     font-size: 1em
+
 }
 .page-1 img {
     margin: 1em auto 0 1em
@@ -700,16 +701,37 @@ button {
     padding: 0;
     text-align: center
 }
-.page-2 p {
-    height: 10%;
-    padding-top: 5%;
-    margin: 0
+.page-2  h3 {
+    position: absolute;
+    right: 10%;
+    color:  #613b3b
+}
+.page-2 .top-text{
+
+    color: #FA4A4A;
+    line-height: 2em;
+
 }
 .page-2 img {
-    height: 80%
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 100%
 }
-.page-3 {
-    background-color: #c1b287
+.page-3 h3{
+    position: absolute;
+    right: 10%;
+    color:  #613b3b
+}
+.page-4 h3{
+    position: absolute;
+    right: 10%;
+    color:  #613b3b
+}
+.page-5 h3 {
+    position: absolute;
+    right: 10%;
+    color:  #613b3b
 }
 .page-6 {
     background-color: #ecfafb;
@@ -719,14 +741,14 @@ button {
     position: absolute;
     bottom: 0;
     left: 0;
-    max-width: 70%
+    max-width: 100%
 }
 .page-6 h3 {
     position: absolute;
     right: 10%;
-    top: 45%;
-    color: #bc195b
+    color:  #613b3b
 }
+
 .page-7 {
     background-color: #e6fbec
 }
@@ -734,27 +756,22 @@ button {
     max-height: 100%;
     margin: 0 auto
 }
-.page-7 h3,
-.page-8 h3 {
-    top: 1em;
-    left: 50%;
-    margin-top: 0;
-    position: absolute;
-    padding: 0
-}
 .page-7 h3 {
-    margin-left: -240px;
-    z-index: 1
+    position: absolute;
+    right: 10%;
+    color:  #613b3b
 }
+.page-8 h3 {
+    position: absolute;
+    right: 10%;
+    color:  #613b3b
+
+}
+
 .page-8 {
     background: #66cbff
 }
-.page-8 h3 {
-    color: #eef;
-    margin-left: -40%;
-    width: 10em;
-    text-align: left
-}
+
 .page-12 h3,
 .page-18 .text {
     margin-left: 1em;
@@ -763,80 +780,115 @@ button {
 .page-8 h3 span {
     width: 1em
 }
-.page-9 {
-    background-color: #c9f4fb
+.page-9 h3{
+    position: absolute;
+    right: 10%;
+    color:  #613b3b
 }
 .page-9 img {
-    margin-top: 3em
 }
-.page-10 {
-    background: url(../img/iali22_bg.jpg)
+.page-10 h3{
+    position: absolute;
+    right: 10%;
+    color:  #613b3b
 }
-.page-12 {
-    background-color: #aff1ff;
-    padding: 0
+.page-11 h3{
+    position: absolute;
+    right: 10%;
+    color:  #613b3b
+}
+.page-12 h3{
+    position: absolute;
+    right: 10%;
+    color:  #613b3b
 }
 .page-12 img {
     position: absolute;
-    bottom: 1em;
-    left: 1em;
-    z-index: 2;
-    height: 40%
+    bottom: 0;
+    left: 0;
+    max-width: 100%
 }
 .page-20 img,
 .page-28 img {
     bottom: 0;
     position: absolute
 }
-.page-13 {
-    background-color: #feeff4;
-    padding: 0
+.page-13 h3{
+    position: absolute;
+    right: 10%;
+    color:  #613b3b
 }
 .page-13 img {
-    height: 80%
+
 }
-.page-13 he {
-    height: 20%
+.page-14 h3{
+    position: absolute;
+    right: 10%;
+    color:  #613b3b
 }
-.page-14 {
-    background-color: #fbf7d1
+.page-15 h3{
+    position: absolute;
+    right: 10%;
+    color:  #613b3b
 }
-.page-15 {
-    background: url(../img/iali45_bg.jpg) #dcf2fa
+.page-16 h3{
+    position: absolute;
+    right: 10%;
+    color:  #613b3b
 }
-.page-16 {
-    background-color: #7db6df
+.page-17 h3{
+    position: absolute;
+    right: 10%;
+    color:  #613b3b
 }
-.page-17 {
-    background-color: #e5f0f2
-}
-.page-19 {
-    background-image: url(../img/iali75_bg.jpg)
+.page-18 h3 {
+    position: absolute;
+    right: 10%;
+    color:  #613b3b
 }
 .page-19 h3 {
-    margin-bottom: 2em
+    position: absolute;
+    right: 10%;
+    color:  #613b3b
 }
 .page-20 {
     background-color: #fcd0ca;
     padding: 0
 }
-.page-20 img {
-    left: 4em
+.page-20 h3 {
+    position: absolute;
+    right: 10%;
+    color:  #613b3b
 }
-.page-21 {
-    background: url(../img/iali59_bg.jpg) #fbf2a3
+.page-21 h3{
+    position: absolute;
+    right: 10%;
+    color:  #613b3b
 }
-.page-22 {
-    background-color: #f5d484
+.page-22 h3{
+    position: absolute;
+    right: 10%;
+    color:  #613b3b
 }
-.page-23 {
-    background-color: #fff
+.page-23 h3{
+    position: absolute;
+    right: 10%;
+    color:  #613b3b
 }
-.page-25 {
-    background-color: #fcc1b1
+.page-24 h3{
+    position: absolute;
+    right: 10%;
+    color:  #613b3b
 }
-.page-26 {
-    background-color: #fdeacf
+.page-25 h3{
+    position: absolute;
+    right: 10%;
+    color:  #613b3b
+}
+.page-26 h3{
+    position: absolute;
+    right: 10%;
+    color:  #613b3b
 }
 .page-27 {
     background-color: #ffc8c5;
@@ -844,23 +896,20 @@ button {
 }
 .page-27 h3 {
     position: absolute;
-    z-index: 2;
-    width: 100%;
-    text-align: center
+    right: 10%;
+    color:  #613b3b
 }
 .page-28 {
-    background: url(../img/iali40_bg.jpg) bottom repeat-x #b7e7f3;
+    background: url(..) bottom repeat-x #b7e7f3;
     padding: 0
 }
 .page-28 img {
-    left: 3em
+
 }
 .page-28 h3 {
     position: absolute;
-    right: 1em;
-    bottom: 360px;
-    text-align: right;
-    color: #127184
+    right: 10%;
+    color:  #613b3b
 }
 .page-30 img,
 .page-35 img {
@@ -874,41 +923,51 @@ button {
 }
 .page-29 h3 {
     position: absolute;
-    z-index: 2;
-    width: 100%;
-    text-align: center;
-    color: #eef
+    right: 10%;
+    color:  #613b3b
 }
-.page-30 {
-    background: url(../img/iali76_bg.png) center bottom repeat-x #fff;
-    padding: 0
+.page-30  h3{
+    position: absolute;
+    right: 10%;
+    color:  #613b3b
 }
-.page-31 {
-    background-color: #fbf5e9
+
+
+.page-31 h3{
+    position: absolute;
+    right: 10%;
+    color:  #613b3b
 }
-.page-32 {
-    background-color: #faf2e5
+.page-32 h3{
+    position: absolute;
+    right: 10%;
+    color:  #613b3b
 }
 .page-33 {
     background-color: #fef0d5;
     padding: 0
 }
 .page-33 h3 {
-    font-size: 1.8em;
-    color: #a58545
+    position: absolute;
+    right: 10%;
+    color:  #613b3b
 }
 .page-35 h3,
 .page-42 h3 {
-    font-size: 2em
+    position: absolute;
+    right: 10%;
+    color:  #613b3b
 }
 .page-34 {
-    background: url(../img/iali57.jpg) left bottom no-repeat #94c2e3
+    background: url(..) left bottom no-repeat #94c2e3
 }
 .page-34 h3 {
-    color: #fff
+    position: absolute;
+    right: 10%;
+    color:  #613b3b
 }
 .page-35 {
-    background: url(../img/iali8_bg.png) left bottom repeat-x #fff;
+    background: url(..) left bottom repeat-x #fff;
     padding: 0
 }
 .page-35 img {
@@ -916,34 +975,44 @@ button {
 }
 .page-40 img,
 .page-41 .img1 {
-    bottom: 1em;
-    left: 1em
+
 }
 .page-35 h3 {
     position: absolute;
     right: 10%;
-    top: 5%;
-    color: green;
-    z-index: 2
+    color:  #613b3b
 }
 .page-36 h3 {
-    text-align: right;
-    right: 1.5em;
-    color: #eee
+    position: absolute;
+    right: 10%;
+    color:  #613b3b
 }
-.page-40 h3,
+.page-40 h3 {
+    position: absolute;
+    right: 10%;
+    color:  #613b3b
+}
 .page-41 .img2 {
     right: 1em;
     top: 1em
 }
-.page-37 {
-    background-color: #fff
+.page-37 h3{
+    position: absolute;
+    right: 10%;
+    color:  #613b3b
 }
-.page-38 {
-    background-color: #fff8f2
+.page-38 h3{
+    position: absolute;
+    right: 10%;
+    color:  #613b3b
 }
 .page-39 {
-    background: url(../img/iali2_bg.jpg) #e8ccc1
+    background: url(..) #e8ccc1
+}
+.page-39 h3{
+    position: absolute;
+    right: 10%;
+    color:  #613b3b
 }
 .page-40 {
     background-color: #cde7f4
@@ -954,7 +1023,8 @@ button {
 }
 .page-40 h3 {
     position: absolute;
-    z-index: 2
+    right: 10%;
+    color:  #613b3b
 }
 .page-41 {
     background-color: #5aaadc;
@@ -965,35 +1035,27 @@ button {
     position: absolute
 }
 .page-41 h3 {
-    padding: 0;
     position: absolute;
-    top: 35%;
-    width: 100%;
-    text-align: center
+    right: 10%;
+    color:  #613b3b
 }
 .page-42 {
     background-color: #c1c567
 }
 .page-42 img {
-    position: absolute;
-    bottom: 2em;
-    left: 1em
+
 }
 .page-46 h3,
 .page-47 h3 {
     position: absolute;
-    top: 1em;
-    left: 50%;
-    margin-left: -40%;
-    margin-top: 0;
-    text-align: left;
-    padding: 0
+    right: 10%;
+    color:  #613b3b
 }
 .page-43 {
     background-color: #6b79ad
 }
 .page-43 img {
-    max-height: 80%
+
 }
 .page-43 h2 {
     color: #fff
@@ -1004,15 +1066,9 @@ button {
 .page-45 {
     background-color: #b1dceb
 }
-.page-46 {
-    background: #66cbff
-}
-.page-46 h3 {
-    width: 10em
-}
-.page-46 h3 span {
-    width: 1em
-}
+
+
+
 .page-47 {
     background-color: #fdcbca
 }
@@ -1063,20 +1119,16 @@ button {
     z-index: 999
 }
 .page-51 {
-    background-image: url(../img/iali52.jpg);
-    background-size: cover;
-    background-color: #fff;
-    text-align: left
+
 }
 .page-52 {
     background-color: #fff2fb;
     padding: 0
 }
 .page-52 h3 {
-    margin: 0;
-    padding-top: .8em;
-    font-size: 1.6em;
-    color: #4e0f3d
+    position: absolute;
+    right: 10%;
+    color:  #613b3b
 }
 .page-53 {
     background-color: #febebe
@@ -1093,8 +1145,9 @@ button {
     text-indent: -99999px
 }
 .page-54 h3 {
-    line-height: 1rem;
-    padding-top: .5em
+    position: absolute;
+    right: 10%;
+    color:  #613b3b
 }
 .write-tip {
     display: block;
